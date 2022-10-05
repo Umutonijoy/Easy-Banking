@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ol{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.navbar ol li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.322);
+}
+
+.navbar ol li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.navbar ol button:hover{
+    background-image: linear-gradient(to right, rgba(49, 211, 92, 0.527),rgba(43, 183, 218, 0.425));
+}
+.navbar ol button{
+    height: 30px;
+    width: 120px;
+    background-image: linear-gradient(to right, rgba(49, 211, 92, 0.849),rgba(43, 183, 218, 0.966));
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 200px;
+    
+}
+.class{
+    display: flex;
+    padding-left: 40px;
+    background-color: rgba(128, 128, 128, 0.13);
+    width: 193.5vh;
+}
+.class1 h1{
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding-top: 70px;
+    margin-left: 5px;
+}
+.class1 p{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.562);
+}
+.class1 button{
+    height: 30px;
+    width: 120px;
+    background-image: linear-gradient(to right, rgba(49, 211, 92, 0.849),rgba(43, 183, 218, 0.966));
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.class2{
+    background-image: url(../Easy-Banking/images/bg-intro-desktop.svg);
+    background-size: cover;
+    margin-left: 300px;
+}
+.class2 img{
+    width: 500px;
+    height: 500px;
+}
+.body2{
+    background-color: rgba(128, 128, 128, 0.199);
+    height: 500px;
+    width: 200vh;
+}
+
+.class3 h1{
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding-top: 70px;
+}
+.class3 p{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.562);
+}
+.class4{
+    display: flex;
+    gap: 5vh;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.class4 img{
+    width: 50px;
+    height: 50px; 
+    
+}
+#h1{
+    padding-top: 60px;
+    font-weight: lighter;
+    
+}
+.class4 p{
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: small;
+}
+#c1{
+    display: block;
+}
+#c2{
+    display: block;
+}
+#c3{
+    display: block;
+}
+#c4{
+    display: block;
+}
+
+.class5{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 150px;
+    margin-left: -50px;
+    gap: 30px;
+}
+#a1{
+    display: block;
+}
+#a2{
+    display: block;
+}
+#a3{
+    display: block;
+}
+#a4{
+    display: block;
+}
+.class5 img{
+    width: 300px;
+    height: 200px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+.class5 h3:hover{
+    color: rgba(0, 128, 0, 0.555);
+}
+.class5 h3{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: lighter;
+
+}
+
+.class5 h6{
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.class5 p{
+    padding-top: 40px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.class6{
+    margin-top: 40px;
+    background-color: rgba(20,4,50);
+    height: 200px;
+    width: 220vh;
+}
+.class6 img{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#d1{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    gap: 2px;
+}
+.class6 ul li{
+    color: white;
+    padding-left: 200px;
+    display: flex;
+    font-size: small;
+}
